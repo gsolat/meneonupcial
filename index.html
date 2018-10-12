@@ -10,20 +10,138 @@
 <!-- CSS -->
 
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="shortcut icon" href="img/gs.ico">
   </head>
 
-<body>
-    <div class="container-fluid">
+
+<body data-spy="scroll" data-target=".nav" data-offset="50">
+
+    <!-- <div class="container">
         <div class="row">
-          <section id="home">
-            <div id="first-view" class="col-lg-4 col-lg-offset-4">
-                <img src="img/image.svg" alt="meneo-nupcial">
+            <nav class="navbar ">
+                <a class="nav-link" href="#pre-wedding">Pre Wedding</a>
+                <a class="nav-link" href="#flights-hotels">Flight & Hotels</a>
+                <a class="nav-link" href="#">Dress Code</a>
+                <a class="nav-link" href="#">Getting There</a>
+                <a class="nav-link" href="#">Registry</a>
+            </nav>
+        </div>
+    </div> -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                  <a class="nav-item nav-link" href="#pre-wedding">Pre Wedding <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#flights-hotels">Flight & Hotels</a>
+                  <a class="nav-item nav-link" href="#">Dress Code</a>
+                  <a class="nav-item nav-link" href="#">Getting There</a>
+                  <a class="nav-item nav-link" href="#">Registry</a>
+              </div>
+          </div>
+    </nav>
+
+    <div id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="first-view" class="col-lg-4 offset-lg-4">
+                    <img src="img/image.svg" alt="meneo-nupcial">
+                </div>
             </div>
-          </section>
+        </div>
+    </div>
+
+    <div id="pre-wedding">
+        <div class="container">
+                <div class="row">
+                    <div id="title" class="col-12">
+                        <h1>Pre Wedding</h1>
+                        <img src="img/hr.svg" alt="hr">
+                    </div>
+                    <div id="plans" class="col-lg-8 offset-2">
+                        <div class="row">
+                            <div class="plan-header col-lg-12">
+                                <h3>[nombre-plan-1]</h3>
+                                <h5>Jueves 10 de Enero</h5>
+                            </div>
+                            <div class="plan-description col-lg-8">
+                                <p>Nunc a pulvinar est. Vivamus tincidunt condimentum hendrerit. Sed nec diam et justo rutrum blandit quis vel ante. Morbi sit amet justo non libero accumsan gravida.</p>
+                                <p><b>Dress code</b>:</p>
+                            </div>
+                            <div class="plan-info col-lg-4">
+                                <p>lugar:</p>
+                                <p>Hora:</p>
+                                <p>como llegar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="plans" class="col-lg-8 offset-2">
+                        <div class="row">
+                            <div class="plan-header col-lg-12">
+                                <h3>[nombre-plan-2]</h3>
+                                <h5>Viernes 11 de Enero</h5>
+                            </div>
+                            <div class="plan-description col-lg-8">
+                                <p>Proin vel dictum augue, at rhoncus orci. Pellentesque nisl enim, ultricies quis orci eu, commodo facilisis dui. Praesent posuere tellus quis arcu scelerisque, sed tempus eros consectetur. Nunc vel lorem urna.</p>
+                                <p><b>Dress code</b>:</p>
+                            </div>
+                            <div class="plan-info col-lg-4">
+                                <p>lugar:</p>
+                                <p>Hora:</p>
+                                <p>como llegar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="plans" class="col-lg-8 offset-2">
+                        <div class="row">
+                            <div class="plan-header col-lg-12">
+                                <h3>[nombre-plan-3]</h3>
+                                <h5>Sábado 12 de Enero</h5>
+                            </div>
+                            <div class="plan-description col-lg-8">
+                                <p>Integer libero odio, convallis eu felis eget, lobortis euismod dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                                <p><b>Dress code</b>:</p>
+                            </div>
+                            <div class="plan-info col-lg-4">
+                                <p>lugar:</p>
+                                <p>Hora:</p>
+                                <p>como llegar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div id="flights-hotels">
+        <div class="container">
+            <div class="row">
+                <div id="title" class="col-12">
+                    <h1>Flights & Hotels</h1>
+                    <img src="img/hr.svg" alt="hr">
+                </div>
+                <div class="col-lg-8 offset-2">
+                    <div class="row">
+                        <div id="hotel" class="col-lg-6">
+                            <h5>Movich Buro 51</h5>
+                            <p>Calle 94 # 51B - 43<br>
+                                Hotel: (57) (5) 331 9999.​<br>
+                                Reservas: (57) (1) 521 5050 <br> (57) (4) 514 6962 <br> 01 8000 95 5050<br>
+                                <a href="mailto:reservas@movichhotels.com">reservas@movichhotels.com</a>
+                            </p>
+                        </div>
+                        <div id="hotel" class="col-lg-6">
+                            <h5>Hotel El Prado</h5>
+                            <p>Carrera 54 # 70 – 10<br>
+                                Hotel: (57) (5) 3100800​<br>
+                                <a href="mailto:comercial@hotelelpradobarranquilla.com">comercial@hotelelpradobarranquilla.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
@@ -31,8 +149,6 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
-    <script src="js/lightbox.min.js"></script>
+    <script src="js/bootstrap.js"></script>
   </body>
 </html>

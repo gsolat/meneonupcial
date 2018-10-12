@@ -5,6 +5,7 @@ body {
     margin-top: 0;
     position: relative;
     width: 100%;
+    background-color: #E6DBCF;
     font-size: 14px;
     font-family: 'Open Sans', sans-serif;
 }
@@ -20,33 +21,25 @@ h6 {
 }
 
 a {
-    color: #ff3d00;
+    color: #9E9595;
     -webkit-transition: color 400ms, background-color 400ms;
     -moz-transition: color 400ms, background-color 400ms;
     -o-transition:  color 400ms, background-color 400ms;
     transition:  color 400ms, background-color 400ms;
 }
-    a:hover,
-    a:focus {
+a:hover,
+a:focus,
+a:active,
+a:visited {
+        background-color: rgba(241, 241, 241, 0.5);
         text-decoration: none;
-        color: darken(@main_color, 10%);
-    }
-}
-hr {
-    border-top: 1px solid #424242;
-    border-bottom: 1px solid #fff;
+        color: #363333;
 }
 
-.gradiant {
-    background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+hr {
+    border-top: 1px solid #9E9595;
 }
-.gradiant-horizontal {
-    background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
-    background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
-}
+
 .section-header {
     margin-bottom: 50px;
 }
@@ -103,53 +96,10 @@ hr {
     margin-bottom: 15px;
     position: relative;
 }
-.column-title:after {
-  content: " ";
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 40%;
-    border-bottom: 1px solid #45aed6;
+.container {
+    /* max-width: 968px; */
+    max-width: 1080px;
 }
-ul.nostyle {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-ul.nostyle i {
-    color: #45aed6;
-}
-.scaleIn {
-    -webkit-animation-name: scaleIn;
-    animation-name: scaleIn;
-}
-@-webkit-keyframes scaleIn {
-    0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-    }
-    100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    }
-}
-@keyframes scaleIn {
-    0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    }
-    100% {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    }
-}
-
 .container-fluid {
     padding: 0 -15px 0 -15px;
     margin-bottom: 0;
@@ -159,263 +109,98 @@ ul.nostyle i {
 
 /* -- HEADER -- */
 
-@media only screen and (min-width: 768px) {
-    .navbar.navbar-default {
-        border: 0;
-        border-radius: 0;
-        margin-bottom: 0;
-        background-color: transparent;
-    }
-    .navbar-default .navbar-toggle {
-        border-color: #000;
-    }
-    .navbar-default .navbar-toggle:hover,
-    .navbar-default .navbar-toggle:focus {
-        background-color: transparent;
-    }
-    .navbar-default .navbar-toggle .icon-bar {
-        background-color: #000;
-    }
-    .navbar.navbar-default .navbar-brand {
-        height: auto;
-        padding: 10px 15px;
-        margin-bottom: 0px;
-        margin-left: 0;
-    }
-    .navbar.navbar-default .navbar-brand img {
-        height: 80px;
-        margin-top: 20px;
-    }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
-        border: 0;
-    }
-    .navbar-default {
-        max-width: 250px;
-        text-align: left;
+.site-header {
+    background-color: rgba(54, 51, 52, .85);
+}
+.site-header a {
+    color: rgba(230, 219, 207, 1);
+    transition: ease-in-out color .15s;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        position: fixed;
+        z-index: 100;
     }
     .navbar {
-        min-height: 0;
-        margin-bottom: 0;
-        border: 1px solid transparent;
+        background-color: rgba(241, 241, 241, 0.8);
     }
-    .navbar-nav {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    .navbar.navbar-default .navbar-brand {
-        height: auto;
-        padding: 10px 10px;
-        margin-bottom: 0px;
-    }
-    .navbar.navbar-default .navbar-brand h3 {
-        color: #424242;
-        font-weight: 600;
-        letter-spacing: 1px;
-    }
-    .navbar.navbar-default .navbar-header p {
-        font-size: 1.000em;
-        margin-left: 10px;
-        line-height: normal;
-        color: #424242;
-    }
-    .navbar-nav ul {
-        background-color: transparent;
-    }
-    .navbar-nav > li {
-        float: none;
-    }
-    .navbar-default .navbar-nav > li > a {
-        text-align: left;
-        font-weight: normal;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 1.000em;
-        padding: 8px 8px 8px 16px;
-        color: #fff;
-        margin-right: 5px;
-        margin-bottom: 0px;
-    }
-    .navbar-default .navbar-nav > li.active > a,
-    .navbar-default .navbar-nav > li.open > a,
-    .navbar-default .navbar-nav > li:hover > a
-    .navbar-default .navbar-nav > li:focus > a {
-    }
-
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-        color: #E85D3F;
-        transition: 400ms;
-    }
-    .navbar-header {
-        background-color: transparent;
+    .nav-link {
+        display: block;
+        font-size: .8em;
+        margin: 0.2rem 1rem;
     }
 }
 
-@media (min-width: 425px) and (max-width: 768px) {
-    .navbar-default {
-        text-align: left;
-    }
-    .navbar.navbar-default .navbar-header {
-        background-color: #fff;
-    }
-    .navbar {
-        min-height: 0;
-        margin-bottom: 0;
-        border: 1px solid transparent;
-    }
-    .navbar .navbar-default {
-        border: 0;
-        border-radius: 0;
-        margin-bottom: 0;
-        background-color: transparent;
-    }
-    .navbar.navbar-default .navbar-brand {
-        height: 30px;
-        width: 210px;
-        padding: 10px 15px;
-        margin-bottom: 0px;
-    }
-    .navbar.navbar-default .navbar-brand img {
-        height: 30px;
-    }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
-        border: 0;
-    }
-    .navbar-nav {
-        display: none;
-    }
-    .navbar.navbar-default .navbar-brand h3 {
-        font-size: 1.000em;
-        color: #424242;
-        margin-top: 15px;
-        position: relative;
-        top:-39px;
-        left: 40px;
-    }
-    .navbar.navbar-default .navbar-header br {
-        display: none;
-    }
-    .navbar.navbar-default .navbar-header p {
-        font-size: 0.8em;
-        margin: 19px 10px;
-        line-height: normal;
-        color: #424242;
-    }
-}
-
-@media (min-width: 370px) and (max-width: 425px) {
-    .navbar-default {
-        text-align: left;
-    }
-    .navbar.navbar-default .navbar-header {
-        background-color: #fff;
-    }
-    .navbar {
-        min-height: 0;
-        margin-bottom: 0;
-        border: 1px solid transparent;
-    }
-    .navbar .navbar-default {
-        border: 0;
-        border-radius: 0;
-        margin-bottom: 0;
-        background-color: transparent;
-    }
-    .navbar.navbar-default .navbar-brand {
-        height: 30px;
-        width: 180px;
-        padding: 10px;
-        margin-bottom: 0px;
-    }
-    .navbar.navbar-default .navbar-brand img {
-        height: 25px;
-    }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
-        border: 0;
-    }
-    .navbar-nav {
-        display: none;
-    }
-    .navbar.navbar-default .navbar-brand h3 {
-        font-size: 0.850em;
-        color: #424242;
-        margin-top: 15px;
-        position: relative;
-        top:-37px;
-        left: 37px;
-    }
-    .navbar.navbar-default .navbar-header br {
-        display: none;
-    }
-    .navbar.navbar-default .navbar-header p {
-        font-size: 0.8em;
-        margin: 15px 10px;
-        line-height: normal;
-        color: #424242;
-    }
-}
-
-@media (max-width: 370px) {
-    .navbar-default {
-        text-align: left;
-    }
-    .navbar.navbar-default .navbar-header {
-        background-color: #fff;
-    }
-    .navbar {
-        min-height: 0;
-        margin-bottom: 0;
-        border: 1px solid transparent;
-    }
-    .navbar .navbar-default {
-        border: 0;
-        border-radius: 0;
-        margin-bottom: 0;
-        background-color: transparent;
-    }
-    .navbar.navbar-default .navbar-brand {
-        height: 30px;
-        width: 160px;
-        padding: 10px;
-        margin-bottom: 0px;
-    }
-    .navbar.navbar-default .navbar-brand img {
-        height: 22px;
-    }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form  {
-        border: 0;
-    }
-    .navbar-nav {
-        display: none;
-    }
-    .navbar.navbar-default .navbar-brand h3 {
-        font-size: 0.750em;
-        color: #424242;
-        margin-top: 17px;
-        position: relative;
-        top:-35px;
-        left: 30px;
-    }
-    .navbar.navbar-default .navbar-header br {
-        display: none;
-    }
-    .navbar.navbar-default .navbar-header p {
-        font-size: 0.65em;
-        margin: 14px 10px;
-        line-height: 1.87;
-        color: #424242;
-    }
-}
-
-/* -- STUFF -- */
+/* -- CONTENT -- */
 
 @media (min-width: 1400px) {
     #home {
-        height: 980px;
+        height: 968px;
         background-color: #E6DBCF;
+        text-align: center;
     }
     #home #first-view img {
-        max-width: 500px;
         margin-top: calc(50%/2 + 9%);
+        max-width: 500px;
+    }
+    #title {
+        text-align: center;
+        margin: 80px 0;
+    }
+    #title h1 {
+        font-size: 1.3em;
+        font-weight: 200;
+        margin-bottom: 0px;
+    }
+    #title img {
+        max-width: 180px;
+    }
+
+    /*----- Pre Wedding -----*/
+
+    #pre-wedding {
+        margin: 50px 0 150px 0;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+    }
+    #pre-wedding #plans {
+        margin-bottom: 20px;
+        padding: 20px 30px;
+        /* background-color: rgba(241, 241, 241, .5); */
+        border-radius: 5px;
+    }
+    #pre-wedding #plans h5 {
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
+    #pre-wedding #plans .plan-info {
+        border-left: 1px solid #9E9595;
+        padding-left: 20px;
+    }
+
+    /*----- Flights and Hotels -----*/
+
+    #flights-hotels {
+        margin: 50px 0 150px 0;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #flights-hotels #hotel {
+        margin-bottom: 20px;
+
+        padding: 20px 30px;
+        /* background-color: rgba(241, 241, 241, .5); */
+        border-radius: 5px;
+    }
+    #flights-hotels #hotel h5 {
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
+    #flights-hotels #hotel .plan-info {
+        border-left: 1px solid #9E9595;
+        padding-left: 20px;
     }
 }
 
