@@ -176,14 +176,17 @@ hr {
 
     #pre-wedding {
         margin: 0px 0 150px 0;
+        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
     }
+    #pre-wedding img {
+        margin-bottom: 30px;
+    }
     #pre-wedding #plans {
         margin-bottom: 20px;
         padding: 20px 30px;
-        /* background-color: rgba(241, 241, 241, .5); */
         border-radius: 5px;
     }
     #pre-wedding #plans h5 {
@@ -199,9 +202,13 @@ hr {
 
     #flights-hotels {
         margin: 0px 0 150px 0;
+        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
+    }
+    #flights-hotels img {
+        margin-bottom: 30px;
     }
     #flights-hotels h5 {
         font-weight: 200;
@@ -235,6 +242,33 @@ hr {
     a:visited{
         background-color: #DFB4A1;
     }
+
+    /*----- Dress Code -----*/
+
+    #dress-code {
+        margin: 0px 0 150px 0;
+        padding-top: 50px;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    #dress-code img {
+        margin-bottom: 30px;
+    }
+
+    /*----- Getting There -----*/
+
+    #getting-there {
+        margin: 0px 0 150px 0;
+        padding-top: 50px;
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+    }
+    #getting-there img {
+        margin-bottom: 30px;
+    }
+
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
