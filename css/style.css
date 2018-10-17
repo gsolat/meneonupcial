@@ -153,7 +153,7 @@ hr {
 @media (min-width: 1400px) {
     #home {
         height: auto;
-        padding-bottom: 150px;
+        padding-bottom: 20px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -197,6 +197,9 @@ hr {
         text-align: center;
         background-color: transparent;
         border-bottom: none;
+    }
+    .card-header h6 {
+        font-size: .850em;
     }
 
     /*----- Pre Wedding -----*/
@@ -312,7 +315,8 @@ hr {
 
 @media (min-width: 1200px) and (max-width: 1400px) {
     #home {
-        height: 968px;
+        height: auto;
+        padding-bottom: 30px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -361,6 +365,9 @@ hr {
         text-align: center;
         background-color: transparent;
         border-bottom: none;
+    }
+    .card-header h6 {
+        font-size: .850em;
     }
 
     /*----- Pre Wedding -----*/
@@ -476,7 +483,8 @@ hr {
 
 @media (min-width: 992px) and (max-width: 1200px) {
     #home {
-        height: 968px;
+        height: auto;
+        padding-bottom: 30px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -520,6 +528,9 @@ hr {
         text-align: center;
         background-color: transparent;
         border-bottom: none;
+    }
+    .card-header h6 {
+        font-size: .750em;
     }
 
     /*----- Pre Wedding -----*/
@@ -635,7 +646,8 @@ hr {
 
 @media (min-width: 768px) and (max-width: 992px){
     #home {
-        height: 800px;
+        height: auto;
+        padding-bottom: 30px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -679,6 +691,9 @@ hr {
         text-align: center;
         background-color: transparent;
         border-bottom: none;
+    }
+    .card-header h6 {
+        font-size: .850em;
     }
 
     /*----- Pre Wedding -----*/
@@ -793,7 +808,8 @@ hr {
 
 @media (min-width: 420px) and (max-width: 767px){
     #home {
-        height: 500px;
+        height: auto;
+        padding-bottom: 30px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -832,14 +848,14 @@ hr {
         border: none;
     }
     .card-header {
-        padding: 0.5rem 1.25rem;
+        padding: 0.3rem 1.25rem;
         margin-bottom: 0;
         text-align: center;
         background-color: transparent;
         border-bottom: none;
     }
-    #accordion h6 {
-        font-size: .8em;
+    .card-header h6 {
+        font-size: .650em;
         font-weight: 200;
     }
 
@@ -963,7 +979,8 @@ hr {
 
 @media (min-width: 370px) and (max-width: 420px){
     #home {
-        height: 500px;
+        height: auto;
+        padding-bottom: 30px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -1002,14 +1019,14 @@ hr {
         border: none;
     }
     .card-header {
-        padding: 0.5rem 1.25rem;
+        padding: 0.2rem 1.25rem;
         margin-bottom: 0;
         text-align: center;
         background-color: transparent;
         border-bottom: none;
     }
-    #accordion h6 {
-        font-size: .8em;
+    .card-header h6 {
+        font-size: .650em;
         font-weight: 200;
     }
 
@@ -1133,7 +1150,8 @@ hr {
 
 @media (max-width: 370px){
     #home {
-        height: 500px;
+        height: auto;
+        padding-bottom: 30px;
         background-color: #E6DBCF;
         text-align: center;
     }
@@ -1172,14 +1190,14 @@ hr {
         border: none;
     }
     .card-header {
-        padding: 0.5rem 1.25rem;
+        padding: 0.2rem 1.25rem;
         margin-bottom: 0;
         text-align: center;
         background-color: transparent;
         border-bottom: none;
     }
-    #accordion h6 {
-        font-size: .8em;
+    .card-header h6 {
+        font-size: .650em;
         font-weight: 200;
     }
 
