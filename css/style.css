@@ -206,7 +206,6 @@ hr {
 
     #pre-wedding {
         margin: 0px 0 150px 0;
-        /* padding-top: 50px; */
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
@@ -232,7 +231,6 @@ hr {
 
     #flights-hotels {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -277,7 +275,6 @@ hr {
 
     #dress-code {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -290,7 +287,6 @@ hr {
 
     #getting-there {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -303,7 +299,6 @@ hr {
 
     #registry {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -326,7 +321,7 @@ hr {
     }
     #title {
         text-align: center;
-        margin: 50px 0;
+        margin: 0;
     }
     #title h1 {
         font-size: 1.3em;
@@ -374,7 +369,6 @@ hr {
 
     #pre-wedding {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
@@ -494,7 +488,7 @@ hr {
     }
     #title {
         text-align: center;
-        margin: 50px 0;
+        margin: 0;
     }
     #title img {
         max-width: 180px;
@@ -537,7 +531,6 @@ hr {
 
     #pre-wedding {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
@@ -563,7 +556,6 @@ hr {
 
     #flights-hotels {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -608,7 +600,6 @@ hr {
 
     #dress-code {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -621,7 +612,6 @@ hr {
 
     #getting-there {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -657,7 +647,7 @@ hr {
     }
     #title {
         text-align: center;
-        margin: 50px 0;
+        margin: 0;
     }
     #title img {
         max-width: 180px;
@@ -700,7 +690,6 @@ hr {
 
     #pre-wedding {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
@@ -725,7 +714,6 @@ hr {
 
     #flights-hotels {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -770,7 +758,6 @@ hr {
 
     #dress-code {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -783,7 +770,6 @@ hr {
 
     #getting-there {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -796,7 +782,6 @@ hr {
 
     #registry {
         margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
@@ -1088,6 +1073,7 @@ hr {
         border-radius: 5px;
     }
     #flights-hotels #hotel img {
+        max-width: 100px;
         max-height: 60px;
         margin-bottom: 30px;
     }
