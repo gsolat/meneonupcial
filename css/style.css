@@ -502,7 +502,7 @@ hr {
         margin-right: auto;
     }
     #accordion {
-        margin-bottom: 200px;
+        margin-bottom: auto;
     }
     .card {
         position: relative;
@@ -661,7 +661,7 @@ hr {
         margin-right: auto;
     }
     #accordion {
-        margin-bottom: 200px;
+        margin-bottom: 70px;
     }
     .card {
         position: relative;
@@ -818,7 +818,7 @@ hr {
         margin-right: auto;
     }
     #accordion {
-        margin-bottom: 100px;
+        margin-bottom: 50px;
     }
     .card {
         position: relative;
