@@ -57,7 +57,7 @@ hr {
     font-weight: 800;
     color: #000;
     border-width: 0;
-    border-radius: 3px;
+    border-radius: 2px;
     background-color: #transparent;
 }
 .btn-xs {
@@ -202,6 +202,15 @@ hr {
         font-size: .850em;
         margin-bottom: 0;
     }
+    #frame {
+        max-width: 100px;
+        height: auto;
+        padding: 20px;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
+        border-radius: 2px;
+        float: right;
+    }
 
     /*----- Pre Wedding -----*/
 
@@ -240,9 +249,25 @@ hr {
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
+        line-height: 2;
     }
     #flights-hotels .fh-content {
         padding: 20px 30px;
+    }
+    #flights-hotels .fh-content a {
+        color: #363333;
+        background-color: #fff;
+        padding: 2px 7px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #flights-hotels .fh-content
+    a:hover,
+    a:focus,
+    a:active,
+    a:visited{
+        background-color: #DFB4A1;
     }
     #flights-hotels #tips ul {
         line-height: 2;
@@ -260,8 +285,8 @@ hr {
         color: #fff;
         padding-top: 4px;
     }
-    #flights-hotels h3 {
-        margin-bottom: 10px;
+    #flights-hotels #accomodations a {
+        line-height: 3;
     }
     #flights-hotels #hotel {
         margin-bottom: 20px;
@@ -274,25 +299,6 @@ hr {
     #flights-hotels #hotel img {
         max-height: 100px;
         margin-bottom: 30px;
-    }
-    #flights-hotels #flights img {
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels a {
-        color: #363333;
-        background-color: #fff;
-        padding: 2px 7px;
-        border-radius: 3px;
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels
-    a:hover,
-    a:focus,
-    a:active,
-    a:visited{
-        background-color: #DFB4A1;
     }
 
     /*----- Dress Code -----*/
