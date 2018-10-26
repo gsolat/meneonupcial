@@ -161,22 +161,8 @@ hr {
         margin-top: calc(50%/2);
         max-width: 500px;
     }
-    #title {
-        text-align: center;
-        margin: 0;
-    }
-    #title img {
-        max-width: 180px;
-    }
-    #assets {
-        text-align: center;
-    }
-    #assets img {
-        max-width: 280px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     #accordion {
+        margin-bottom: 30px;
     }
     .card {
         position: relative;
@@ -212,6 +198,9 @@ hr {
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
+    }
+    #pre-wedding p {
+        line-height: 2;
     }
     #pre-wedding img {
         margin-bottom: 30px;
@@ -277,11 +266,6 @@ hr {
     }
     #flights-hotels #accomodations a {
         line-height: 3;
-    }
-    #flights-hotels #hotel {
-        margin-bottom: 20px;
-        padding: 20px 30px;
-        border-radius: 5px;
     }
     #flights-hotels #tips p {
         line-height: 2;
@@ -351,25 +335,8 @@ hr {
         margin-top: calc(50%/2);
         max-width: 500px;
     }
-    #title {
-        text-align: center;
-        margin: 0;
-    }
-    #title h1 {
-        font-size: 1.3em;
-        font-weight: 200;
-        margin-bottom: 0px;
-    }
-    #title img {
-        max-width: 180px;
-    }
-    #assets {
-        text-align: center;
-    }
-    #assets img {
-        max-width: 280px;
-        margin-left: auto;
-        margin-right: auto;
+    #accordion {
+        margin-bottom: 30px;
     }
     .card {
         position: relative;
@@ -405,6 +372,12 @@ hr {
         height: auto;
         font-family: 'Open Sans', sans-serif;
         font-weight: 400;
+    }
+    #pre-wedding br {
+        display: visible;
+    }
+    #pre-wedding p {
+        line-height: 2;
     }
     #pre-wedding #plans {
         margin-bottom: 20px;
@@ -467,11 +440,6 @@ hr {
     }
     #flights-hotels #accomodations a {
         line-height: 3;
-    }
-    #flights-hotels #hotel {
-        margin-bottom: 20px;
-        padding: 20px 30px;
-        border-radius: 5px;
     }
     #flights-hotels #tips p {
         line-height: 2;
@@ -541,23 +509,8 @@ hr {
         margin-top: calc(50%/2 + 9%);
         max-width: 500px;
     }
-    #title {
-        text-align: center;
-        margin: 0;
-    }
-    #title img {
-        max-width: 180px;
-    }
-    #assets {
-        text-align: center;
-    }
-    #assets img {
-        max-width: 280px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     #accordion {
-        margin-bottom: auto;
+        margin-bottom: 15px;
     }
     .card {
         position: relative;
@@ -572,7 +525,7 @@ hr {
         border: none;
     }
     .card-header {
-        padding: 0.75rem 1.25rem;
+        padding: 0.15rem 1.25rem;
         margin-bottom: 0;
         text-align: center;
         background-color: transparent;
@@ -580,68 +533,60 @@ hr {
     }
     .card-header h6 {
         font-size: .750em;
+        margin-bottom: 0;
+    }
+    #frame {
+        border: 2px solid #fff;
+        border-radius: 2px;
     }
 
     /*----- Pre Wedding -----*/
 
     #pre-wedding {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        font-weight: 200;
+        font-weight: 400;
     }
-    #pre-wedding img {
-        margin-bottom: 30px;
+    #pre-wedding .plan-header br {
+        display: none;
+    }
+    #pre-wedding p {
+        line-height: 2;
     }
     #pre-wedding #plans {
         margin-bottom: 20px;
         padding: 20px 30px;
         border-radius: 5px;
     }
+    #pre-wedding #plans h3 {
+        line-height: 1.5;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
     #pre-wedding #plans h5 {
         font-weight: 200;
         margin-bottom: 30px;
     }
     #pre-wedding #plans .plan-info {
-        border-left: 1px solid #9E9595;
+        border-left: 2px solid #fff;
         padding-left: 20px;
     }
 
     /*----- Flights and Hotels -----*/
 
     #flights-hotels {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
+        font-weight: 400;
+        line-height: 2;
     }
-    #flights-hotels img {
-        margin-bottom: 30px;
-    }
-    #flights-hotels h5 {
-        font-weight: 200;
-        margin-bottom: 10px;
-    }
-    #flights-hotels #hotel {
-        margin-bottom: 20px;
-        padding: 20px 30px;
-        border-radius: 5px;
-    }
-    #flights-hotels #hotel img {
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels #flights img {
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels a {
+    #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
         padding: 2px 7px;
-        border-radius: 3px;
-        max-height: 100px;
-        margin-bottom: 30px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
     }
     #flights-hotels
     a:hover,
@@ -650,42 +595,80 @@ hr {
     a:visited{
         background-color: #DFB4A1;
     }
+    #flights-hotels #tips, #accomodations {
+        padding: 20px;
+    }
+    #flights-hotels #tips ul {
+        line-height: 2;
+    }
+    #flights-hotels #tips h6 {
+        font-weight: bold;
+    }
+    #flights-hotels #tips #transportation {
+        padding: 10px 20px 15px 20px;
+        border: 6px solid #fff;
+        margin-bottom: 20px;
+    }
+    #flights-hotels #tips #transportation p {
+        margin-bottom: 5px;
+    }
+    #flights-hotels #accomodations a {
+        line-height: 3;
+    }
+    #flights-hotels #tips p {
+        line-height: 2;
+    }
 
     /*----- Dress Code -----*/
 
     #dress-code {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
+        font-weight: 400;
+        line-height: 2;
     }
-    #dress-code img {
-        margin-bottom: 30px;
+    #dress-code #tips {
+        padding: 20px 0;
+    }
+    #dress-code #tips h3 {
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+    #dress-code #tips h5 {
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #dress-code #note p {
+        text-align: center;
+        margin-bottom: 20px;
+        font-style: italic;
     }
 
     /*----- Getting There -----*/
 
     #getting-there {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
+    }
+    #getting-there #vans {
+        padding: 20px;
+    }
+    #getting-there #vans p {
+        font-size: 1.2em;
+        line-height: 2;
         text-align: center;
     }
-    #getting-there img {
-        margin-bottom: 30px;
-    }
-
     /*----- Registry -----*/
 
     #registry {
-        margin: 0px 0 150px 0;
-        padding-top: 50px;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
-    #registry img {
-        margin-bottom: 30px;
+    #registry #instructions p {
+        font-size: 1.5em;
+        line-height: 2;
+        text-align: center;
     }
 }
 
@@ -700,23 +683,8 @@ hr {
         margin-top: calc(50%/2 + 9%);
         max-width: 500px;
     }
-    #title {
-        text-align: center;
-        margin: 0;
-    }
-    #title img {
-        max-width: 180px;
-    }
-    #assets {
-        text-align: center;
-    }
-    #assets img {
-        max-width: 280px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     #accordion {
-        margin-bottom: 70px;
+        margin-bottom: 15px;
     }
     .card {
         position: relative;
@@ -731,75 +699,70 @@ hr {
         border: none;
     }
     .card-header {
-        padding: 0.75rem 1.25rem;
+        padding: 0.15rem 1.25rem;
         margin-bottom: 0;
         text-align: center;
         background-color: transparent;
         border-bottom: none;
     }
     .card-header h6 {
-        font-size: .850em;
+        font-size: .750em;
+        margin-bottom: 0;
+    }
+    #frame {
+        border: 2px solid #fff;
+        border-radius: 2px;
     }
 
     /*----- Pre Wedding -----*/
 
     #pre-wedding {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        font-weight: 200;
+        font-weight: 400;
     }
-    #pre-wedding img {
-        margin-bottom: 30px;
+    #pre-wedding .plan-header br {
+        display: none;
+    }
+    #pre-wedding p {
+        line-height: 1.5;
     }
     #pre-wedding #plans {
         margin-bottom: 20px;
+        padding: 20px 10px;
         border-radius: 5px;
     }
+    #pre-wedding #plans h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
     #pre-wedding #plans h5 {
+        font-size: 1.25em;
         font-weight: 200;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     #pre-wedding #plans .plan-info {
-        border-left: 1px solid #9E9595;
+        border-left: 2px solid #fff;
         padding-left: 20px;
+        font-size: .75em;
     }
 
     /*----- Flights and Hotels -----*/
 
     #flights-hotels {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
     }
-    #flights-hotels img {
-        margin-bottom: 30px;
-    }
-    #flights-hotels h5 {
-        font-weight: 200;
-        margin-bottom: 10px;
-    }
-    #flights-hotels #hotel {
-        margin-bottom: 20px;
-        padding: 20px 30px;
-        border-radius: 5px;
-    }
-    #flights-hotels #hotel img {
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels #flights img {
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels a {
+    #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
         padding: 2px 7px;
-        border-radius: 3px;
-        max-height: 100px;
-        margin-bottom: 30px;
+        border-radius: 2px;
+        margin-bottom: 60px;
     }
     #flights-hotels
     a:hover,
@@ -808,41 +771,91 @@ hr {
     a:visited{
         background-color: #DFB4A1;
     }
+    #flights-hotels #tips, #accomodations {
+        padding: 20px 0;
+    }
+    #flights-hotels #tips ul {
+        line-height: 2;
+    }
+    #flights-hotels h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+    #flights-hotels #tips h6 {
+        font-weight: bold;
+    }
+    #flights-hotels #tips #transportation {
+        text-align: center;
+        font-size: .75em;
+        padding: 10px 20px 15px 20px;
+        border: 6px solid #fff;
+        margin-bottom: 20px;
+    }
+    #flights-hotels #tips #transportation p {
+        margin-bottom: 5px;
+    }
+    #flights-hotels #tips #transportation a {
+        margin-top: 5px;
+    }
+    #flights-hotels #accomodations a {
+        line-height: 3;
+    }
 
     /*----- Dress Code -----*/
 
     #dress-code {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
     }
-    #dress-code img {
-        margin-bottom: 30px;
+    #dress-code #tips {
+        padding: 20px 0 0 0;
+    }
+    #dress-code #tips h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    #dress-code #tips h5 {
+        font-size: 1.25em;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #dress-code #note p {
+        font-size: .75em;
+        max-width: 200px;
+        text-align: center;
+        margin:0 auto 20px auto;
+        font-style: italic;
     }
 
     /*----- Getting There -----*/
 
     #getting-there {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
+    }
+    #getting-there #vans {
+        padding: 20px;
+    }
+    #getting-there #vans p {
+        font-size: 1.1em;
+        line-height: 2;
         text-align: center;
     }
-    #getting-there img {
-        margin-bottom: 30px;
-    }
-
     /*----- Registry -----*/
 
     #registry {
-        margin: 0px 0 150px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
-    #registry img {
-        margin-bottom: 30px;
+    #registry #instructions p {
+        font-size: 1.1em;
+        line-height: 2;
+        text-align: center;
     }
 }
 
@@ -854,26 +867,11 @@ hr {
         text-align: center;
     }
     #home #first-view img {
-        margin-top: calc(50%/2 );
-        max-width: 300px;
-    }
-    #title {
-        text-align: center;
-        margin: 0;
-    }
-    #title img {
-        max-width: 180px;
-    }
-    #assets {
-        text-align: center;
-    }
-    #assets img {
-        max-width: 280px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-top: calc(50%/2 + 9%);
+        max-width: 500px;
     }
     #accordion {
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
     .card {
         position: relative;
@@ -888,89 +886,70 @@ hr {
         border: none;
     }
     .card-header {
-        padding: 0.3rem 1.25rem;
+        padding: 0.15rem 1.25rem;
         margin-bottom: 0;
         text-align: center;
         background-color: transparent;
         border-bottom: none;
     }
     .card-header h6 {
-        font-size: .650em;
-        font-weight: 200;
+        font-size: .750em;
+        margin-bottom: 0;
+    }
+    #frame {
+        border: 2px solid #fff;
+        border-radius: 2px;
     }
 
     /*----- Pre Wedding -----*/
 
     #pre-wedding {
-        margin: 0px 0 20px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        font-weight: 200;
+        font-weight: 400;
     }
-    #pre-wedding h3 {
-        font-size: 1.5em;
-    }
-    #pre-wedding h5 {
-        font-size: 1em;
-        margin-bottom: 15px;
+    #pre-wedding .plan-header br {
+        display: none;
     }
     #pre-wedding p {
-        font-size: .85em;
-    }
-    #pre-wedding img {
-        margin-bottom: 30px;
+        line-height: 1.5;
     }
     #pre-wedding #plans {
         margin-bottom: 20px;
+        padding: 20px 10px;
         border-radius: 5px;
     }
+    #pre-wedding #plans h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        font-style: italic;
+        margin-bottom: 10px;
+    }
+    #pre-wedding #plans h5 {
+        font-size: 1.25em;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
     #pre-wedding #plans .plan-info {
-        border-left: 1px solid #9E9595;
+        border-left: 2px solid #fff;
         padding-left: 20px;
+        font-size: .75em;
     }
 
     /*----- Flights and Hotels -----*/
 
     #flights-hotels {
-        margin: 0px 0 20px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        font-weight: 200;
+        font-weight: 400;
+        line-height: 1.5;
     }
-    #flights-hotels img {
-        margin-bottom: 30px;
-    }
-    #flights-hotels h3 {
-        font-size: 1.5em;
-    }
-    #flights-hotels h5 {
-        font-size: 1em;
-        margin-bottom: 15px;
-    }
-    #flights-hotels p {
-        font-size: .75em;
-    }
-    #flights-hotels #hotel {
-        margin-bottom: 20px;
-        padding: 20px 30px;
-        border-radius: 5px;
-    }
-    #flights-hotels #hotel img {
-        max-height: 60px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels #flights img {
-        max-height: 100px;
-        margin-bottom: 30px;
-    }
-    #flights-hotels a {
+    #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
         padding: 2px 7px;
-        border-radius: 3px;
-        max-height: 100px;
-        margin-bottom: 30px;
+        border-radius: 2px;
+        margin-bottom: 60px;
     }
     #flights-hotels
     a:hover,
@@ -979,41 +958,91 @@ hr {
     a:visited{
         background-color: #DFB4A1;
     }
+    #flights-hotels #tips, #accomodations {
+        padding: 20px 0;
+    }
+    #flights-hotels #tips ul {
+        line-height: 2;
+    }
+    #flights-hotels h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+    #flights-hotels #tips h6 {
+        font-weight: bold;
+    }
+    #flights-hotels #tips #transportation {
+        text-align: center;
+        font-size: .75em;
+        padding: 10px 20px 15px 20px;
+        border: 6px solid #fff;
+        margin-bottom: 20px;
+    }
+    #flights-hotels #tips #transportation p {
+        margin-bottom: 5px;
+    }
+    #flights-hotels #tips #transportation a {
+        margin-top: 5px;
+    }
+    #flights-hotels #accomodations a {
+        line-height: 3;
+    }
 
     /*----- Dress Code -----*/
 
     #dress-code {
-        margin: 0px 0 20px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
-        text-align: center;
+        font-weight: 400;
+        line-height: 1.5;
     }
-    #dress-code img {
-        margin-bottom: 30px;
+    #dress-code #tips {
+        padding: 20px 0 0 0;
+    }
+    #dress-code #tips h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    #dress-code #tips h5 {
+        font-size: 1.25em;
+        font-weight: 200;
+        margin-bottom: 20px;
+    }
+    #dress-code #note p {
+        font-size: .75em;
+        max-width: 200px;
+        text-align: center;
+        margin:0 auto 20px auto;
+        font-style: italic;
     }
 
     /*----- Getting There -----*/
 
     #getting-there {
-        margin: 0px 0 20px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
+    }
+    #getting-there #vans {
+        padding: 20px;
+    }
+    #getting-there #vans p {
+        font-size: 1.1em;
+        line-height: 2;
         text-align: center;
     }
-    #getting-there img {
-        margin-bottom: 30px;
-    }
-
     /*----- Registry -----*/
 
     #registry {
-        margin: 0px 20px 0;
         height: auto;
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
-    #registry img {
-        margin-bottom: 30px;
+    #registry #instructions p {
+        font-size: 1.1em;
+        line-height: 2;
+        text-align: center;
     }
 }
 
