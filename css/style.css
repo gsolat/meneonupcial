@@ -22,7 +22,7 @@ h6 {
 }
 
 a {
-    color: #9E9595;
+    color: #363333;
     -webkit-transition: color 400ms, background-color 400ms;
     -moz-transition: color 400ms, background-color 400ms;
     -o-transition:  color 400ms, background-color 400ms;
@@ -71,14 +71,15 @@ hr {
 }
 .btn-primary {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-weight: 200;
     font-size: 1.188em;
-    padding: 8px 16px;
-    color: #fff;
+    letter-spacing: 2px;
+    padding: 4px 12px;
+    color: #363333;
     border-width: 0;
     border-radius: 3px;
-    border-color: #FF6D00;
-    background: #FF6D00;
+    border-color: #DFB4A1;
+    background: #D7B045;
 }
 .btn:hover,
 .btn:focus,
@@ -89,8 +90,8 @@ hr {
 }
 .btn-primary:hover,
 .btn-primary:focus {
-    background: transparent;
-    color: #fff;
+    background: #fff;
+    color: #363333;
 }
 .column-title {
     margin-top: 0;
@@ -114,6 +115,14 @@ hr {
 @media (min-width: 1400px) {
     #home .language-switch a {
         background-color: #DFB4A1;
+        padding: 5px 10px;
+        font-size: .85em;
+        border-radius: 0px 0px 3px 3px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    #home .language-switch a:hover {
+        background-color: #fff;
         padding: 5px 10px;
         font-size: .85em;
         border-radius: 0px 0px 3px 3px;
@@ -159,6 +168,43 @@ hr {
     #frame {
         border: 2px solid #fff;
         border-radius: 2px;
+    }
+
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
     }
 
     /*----- Pre Wedding -----*/
@@ -296,6 +342,14 @@ hr {
 @media (min-width: 1200px) and (max-width: 1400px) {
     .language-switch a {
         background-color: #DFB4A1;
+        padding: 5px 10px;
+        font-size: .85em;
+        border-radius: 0px 0px 3px 3px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    #home .language-switch a:hover {
+        background-color: #fff;
         padding: 5px 10px;
         font-size: .85em;
         border-radius: 0px 0px 3px 3px;
@@ -484,6 +538,14 @@ hr {
         font-weight: 200;
         letter-spacing: 2px;
     }
+    #home .language-switch a:hover {
+        background-color: #fff;
+        padding: 5px 10px;
+        font-size: .85em;
+        border-radius: 0px 0px 3px 3px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
     #home {
         height: auto;
         padding-bottom: 30px;
@@ -660,6 +722,14 @@ hr {
 @media (min-width: 768px) and (max-width: 992px){
     .language-switch a {
         background-color: #DFB4A1;
+        padding: 5px 10px;
+        font-size: .8em;
+        border-radius: 0px 0px 3px 3px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    #home .language-switch a:hover {
+        background-color: #fff;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
@@ -855,6 +925,14 @@ hr {
 @media (min-width: 420px) and (max-width: 767px){
     .language-switch a {
         background-color: #DFB4A1;
+        padding: 5px 10px;
+        font-size: .8em;
+        border-radius: 0px 0px 3px 3px;
+        font-weight: 200;
+        letter-spacing: 2px;
+    }
+    #home .language-switch a:hover {
+        background-color: #fff;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
