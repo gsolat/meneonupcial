@@ -81,17 +81,23 @@ hr {
     border-color: #DFB4A1;
     background: #D7B045;
 }
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    background-color: #FFE59C;
+    color: #363333;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 229, 156, .5);
+}
+.btn-primary:hover, {
+    background: #fff;
+    color: #363333;
+}
 .btn:hover,
 .btn:focus,
 .btn:active {
     background: rgba(255, 255, 255, .9);
     text-decoration: none;
     color: #000;
-}
-.btn-primary:hover,
-.btn-primary:focus {
-    background: #fff;
-    color: #363333;
 }
 .column-title {
     margin-top: 0;
@@ -305,10 +311,23 @@ hr {
         font-weight: 200;
         margin-bottom: 20px;
     }
+    #dress-code #note {
+        margin-bottom: 10px;
+    }
     #dress-code #note p {
         text-align: center;
         margin-bottom: 20px;
         font-style: italic;
+    }
+
+    /*----- Lookbook -----*/
+
+    #lookbook #lookbook-images {
+        margin: 20px 0;
+    }
+    #lookbook #lookbook-images img {
+        border-radius: 3px;
+        margin: 3px 0;
     }
 
     /*----- Getting There -----*/
@@ -395,6 +414,46 @@ hr {
     #frame {
         border: 2px solid #fff;
         border-radius: 2px;
+    }
+
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body label > input, select {
+        background-color: red;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
     }
 
     /*----- Pre Wedding -----*/
@@ -501,6 +560,16 @@ hr {
         font-style: italic;
     }
 
+    /*----- Lookbook -----*/
+
+    #lookbook #lookbook-images {
+        margin: 20px 0;
+    }
+    #lookbook #lookbook-images img {
+        border-radius: 3px;
+        margin: 3px 0;
+    }
+
     /*----- Getting There -----*/
 
     #getting-there {
@@ -585,6 +654,46 @@ hr {
     #frame {
         border: 2px solid #fff;
         border-radius: 2px;
+    }
+
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body label > input, select {
+        background-color: red;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
     }
 
     /*----- Pre Wedding -----*/
@@ -691,6 +800,16 @@ hr {
         font-style: italic;
     }
 
+    /*----- Lookbook -----*/
+
+    #lookbook #lookbook-images {
+        margin: 20px 0;
+    }
+    #lookbook #lookbook-images img {
+        border-radius: 3px;
+        margin: 3px 0;
+    }
+
     /*----- Getting There -----*/
 
     #getting-there {
@@ -775,6 +894,46 @@ hr {
     #frame {
         border: 2px solid #fff;
         border-radius: 2px;
+    }
+
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body label > input, select {
+        background-color: red;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
     }
 
     /*----- Pre Wedding -----*/
@@ -894,6 +1053,16 @@ hr {
         font-style: italic;
     }
 
+    /*----- Lookbook -----*/
+
+    #lookbook #lookbook-images {
+        margin: 20px 0;
+    }
+    #lookbook #lookbook-images img {
+        border-radius: 3px;
+        margin: 3px 0;
+    }
+
     /*----- Getting There -----*/
 
     #getting-there {
@@ -978,6 +1147,46 @@ hr {
     #frame {
         border: 2px solid #fff;
         border-radius: 2px;
+    }
+
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body label > input, select {
+        background-color: red;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
     }
 
     /*----- Pre Wedding -----*/
@@ -1175,6 +1384,46 @@ hr {
         border-radius: 2px;
     }
 
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body label > input, select {
+        background-color: red;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
+    }
+
     /*----- Pre Wedding -----*/
 
     #pre-wedding {
@@ -1368,6 +1617,46 @@ hr {
     #frame {
         border: 2px solid #fff;
         border-radius: 2px;
+    }
+
+    /*----- Modal -----*/
+
+    .modal-content {
+        background-color: #E6DBCF;
+        font-family: 'Open Sans', sans-serif ;
+        border: 0;
+        border-radius: 3px;
+    }
+    .modal-header {
+        border-bottom: 0;
+        padding-top: 1em;
+    }
+    .modal-body {
+        text-align: center;
+    }
+    .modal-body h2{
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+    .modal-body legend {
+        font-size: 1em;
+        color: #363333;
+    }
+    .modal-body #rsvp {
+        text-align: left;
+    }
+    .modal-body label > input {
+        margin-right: 10px;
+    }
+    .modal-body label > input, select {
+        background-color: red;
+    }
+    .modal-body .form-control {
+        font-size: 1em;
+        background-color: #fff;
+        border: 0;
+        border-radius: 3px;
     }
 
     /*----- Pre Wedding -----*/

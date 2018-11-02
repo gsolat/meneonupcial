@@ -31,6 +31,97 @@
                 <div id="first-view" class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-8 offset-md-2 col-sm-4 offset-sm-4 col-xs-4 offset-xs-4">
                     <img src="img/image.svg" alt="meneo-nupcial">
                 </div>
+                <!-- modal -->
+                <!-- Button trigger modal -->
+                <div class="col-12">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                      RSVP
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                              <form action="https://docs.google.com/forms/d/e/1FAIpQLScrZDgVBS4YChs86wGVeGPZdvbT25YaRb_IZ7d9u9iyqOhaCg/formResponse" target="_self" id="bootstrapForm" method="POST">
+                                  <fieldset>
+                                      <h2>RSVP</h2>
+                                  </fieldset>
+
+
+                                  <!-- Field type: "short" id: "951221308" -->
+                                  <fieldset>
+                                      <!-- <legend for="951221308">Nombre</legend> -->
+                                      <div class="form-group">
+                                          <input id="1184085292" type="text" name="entry.1184085292" class="form-control" required  placeholder="Nombre">
+                                      </div>
+                                  </fieldset>
+
+
+                                  <!-- Field type: "short" id: "1331679676" -->
+                                  <fieldset>
+                                      <!-- <legend for="1331679676">Apellido</legend> -->
+                                      <div class="form-group">
+                                          <input id="1270809248" type="text" name="entry.1270809248" class="form-control" required placeholder="Apellido">
+                                      </div>
+                                  </fieldset>
+
+
+                                  <!-- Field type: "short" id: "782186519" -->
+                                  <fieldset>
+                                      <!-- <legend for="782186519">Correo electrónico</legend> -->
+                                      <div class="form-group">
+                                          <input id="956884917" type="text" name="entry.956884917" class="form-control" required placeholder="Correo Electrónico">
+                                      </div>
+                                  </fieldset>
+
+
+                                  <!-- Field type: "choices" id: "740620416" -->
+                                  <fieldset>
+                                      <legend for="740620416">Asistiré</legend>
+                                      <div class="form-group col-4 offset-5" id="rsvp">
+                                          <div class="radio">
+                                              <label>
+                                                  <input type="radio" name="entry.951455257" value="Si" required>
+                                                  Si
+                                              </label>
+                                          </div>
+                                          <div class="radio">
+                                              <label>
+                                                  <input type="radio" name="entry.951455257" value="No" required>
+                                                  No
+                                              </label>
+                                          </div>
+                                      </div>
+                                  </fieldset>
+
+                                  <input type="hidden" name="fvv" value="1">
+                                  <input type="hidden" name="fbzx" value="299355291655203235">
+                                  <!--
+                                      CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+                                      This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+                                      Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+                                      We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+                                  -->
+                                  <input type="hidden" name="pageHistory" value="0">
+                                  <input class="btn btn-primary" type="submit" value="RSVP">
+                              </form>
+                          </div>
+                          <!-- <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div> -->
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- modal end -->
             </div>
         </div>
     </div>
@@ -178,15 +269,64 @@
           </div>
         </div>
       </div>
-      <div class="card">
+      <!-- <div class="card">
         <div class="card-header" id="headingFour">
           <h5 class="mb-0">
             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <h6>• Cómo llegar al evento •</h6>
+              <h6>• Lookbook •</h6>
             </button>
           </h5>
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+              <div id="lookbook">
+                  <div class="container">
+                      <div class="row">
+                          <div id="frame" class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 col-sm-10 offset-sm-1">
+                              <div class="col-lg-10 offset-lg-1 col-md-10 offset-0 col-sm-10 offset-sm-1">
+                                  <div id="lookbook-images" class="row">
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-05.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-06.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-07.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-08.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-01.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-02.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-03.png">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-sm-6">
+                                          <img src="img/lookbook/lookbook-04.png">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="card">
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              <h6>• Cómo llegar al evento •</h6>
+            </button>
+          </h5>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
           <div class="card-body">
               <div id="getting-there">
                   <div class="container">
@@ -205,14 +345,14 @@
         </div>
       </div>
       <div class="card">
-        <div class="card-header" id="headingFive">
+        <div class="card-header" id="headingSix">
           <h5 class="mb-0">
-            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
               <h6>• Lista de Regalos •</h6>
             </button>
           </h5>
         </div>
-        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
           <div class="card-body">
               <div id="registry">
                   <div class="container">
