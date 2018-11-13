@@ -137,13 +137,19 @@ hr {
     }
     #home {
         height: auto;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         background-color: #E6DBCF;
         text-align: center;
     }
     #home #first-view img {
         margin-top: calc(50%/2 - 20px);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: 1em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 30px;
@@ -384,6 +390,12 @@ hr {
     #home #first-view img {
         margin-top: calc(50%/2 - 20px);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: 1em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 30px;
@@ -624,6 +636,12 @@ hr {
     #home #first-view img {
         margin-top: calc(50%/2 + 20%);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: .8em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 15px;
@@ -864,6 +882,12 @@ hr {
     #home #first-view img {
         margin-top: calc(50%/2 - 20px);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: .9em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 15px;
@@ -1117,6 +1141,12 @@ hr {
     #home #first-view img {
         margin-top: calc(50%/2 + 9%);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: .9em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 15px;
@@ -1362,6 +1392,12 @@ hr {
     #home #first-view img {
         margin-top: calc(50%/2 + 9%);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: .9em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 15px;
@@ -1607,6 +1643,12 @@ hr {
     #home #first-view img {
         margin-top: calc(50%/2 + 9%);
         max-width: 500px;
+        margin-bottom: 10px;
+    }
+    #home #first-view p {
+        color: #010101;
+        font-size: .8em;
+        margin-bottom: 15px;
     }
     #accordion {
         margin-bottom: 15px;
