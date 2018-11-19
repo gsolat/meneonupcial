@@ -262,7 +262,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 0px 3px;
         border-radius: 2px;
         line-height: 2;
         margin-bottom: 60px;
@@ -280,7 +280,7 @@ hr {
     #flights-hotels #tips ul {
         line-height: 2;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -292,7 +292,7 @@ hr {
         margin-bottom: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 2;
     }
     #flights-hotels #tips p {
         line-height: 2;
@@ -511,7 +511,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 0px 3px;
         border-radius: 2px;
         line-height: 2;
         margin-bottom: 60px;
@@ -529,7 +529,7 @@ hr {
     #flights-hotels #tips ul {
         line-height: 2;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -541,7 +541,7 @@ hr {
         margin-bottom: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 1;
     }
     #flights-hotels #tips p {
         line-height: 2;
@@ -757,7 +757,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 0px 3px;
         border-radius: 2px;
         line-height: 2;
         margin-bottom: 60px;
@@ -775,7 +775,7 @@ hr {
     #flights-hotels #tips ul {
         line-height: 2;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -787,7 +787,7 @@ hr {
         margin-bottom: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 1;
     }
     #flights-hotels #tips p {
         line-height: 2;
@@ -1006,7 +1006,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 1px 3px;
         border-radius: 2px;
         margin-bottom: 60px;
     }
@@ -1028,7 +1028,7 @@ hr {
         line-height: 1.3;
         margin-bottom: 10px;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -1045,7 +1045,7 @@ hr {
         margin-top: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 1;
     }
 
     /*----- Dress Code -----*/
@@ -1265,7 +1265,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 1px 3px;
         border-radius: 2px;
         margin-bottom: 60px;
     }
@@ -1287,7 +1287,7 @@ hr {
         line-height: 1.3;
         margin-bottom: 10px;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -1304,7 +1304,7 @@ hr {
         margin-top: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 1;
     }
 
     /*----- Dress Code -----*/
@@ -1516,7 +1516,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 1px 4px;
         border-radius: 2px;
         margin-bottom: 60px;
     }
@@ -1538,7 +1538,7 @@ hr {
         line-height: 1.3;
         margin-bottom: 10px;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -1555,7 +1555,7 @@ hr {
         margin-top: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 1;
     }
 
     /*----- Dress Code -----*/
@@ -1767,7 +1767,7 @@ hr {
     #flights-hotels .fh-content a {
         color: #363333;
         background-color: #fff;
-        padding: 2px 7px;
+        padding: 0px 3px;
         border-radius: 2px;
         margin-bottom: 60px;
     }
@@ -1792,7 +1792,7 @@ hr {
         line-height: 1.3;
         margin-bottom: 10px;
     }
-    #flights-hotels #tips h6 {
+    #flights-hotels h6 {
         font-weight: bold;
     }
     #flights-hotels #tips #transportation {
@@ -1810,7 +1810,7 @@ hr {
         margin-top: 5px;
     }
     #flights-hotels #accomodations a {
-        line-height: 3;
+        line-height: 1;
     }
 
     /*----- Dress Code -----*/
