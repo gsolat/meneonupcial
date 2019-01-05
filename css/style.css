@@ -121,6 +121,7 @@ hr {
 @media (min-width: 1400px) {
     #home .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
         padding: 5px 10px;
         font-size: .85em;
         border-radius: 0px 0px 3px 3px;
@@ -382,6 +383,7 @@ hr {
 @media (min-width: 1200px) and (max-width: 1400px) {
     .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
         padding: 5px 10px;
         font-size: .85em;
         border-radius: 0px 0px 3px 3px;
@@ -642,6 +644,7 @@ hr {
 @media (min-width: 992px) and (max-width: 1200px) {
     .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
@@ -902,6 +905,7 @@ hr {
 @media (min-width: 768px) and (max-width: 992px){
     .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
@@ -1172,6 +1176,8 @@ hr {
 @media (min-width: 420px) and (max-width: 767px){
     .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
+        z-index: 10;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
@@ -1445,6 +1451,8 @@ hr {
 @media (min-width: 370px) and (max-width: 420px){
     .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
+        z-index: 10;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
@@ -1710,6 +1718,8 @@ hr {
 @media (max-width: 370px){
     .language-switch a {
         background-color: #DFB4A1;
+        position: fixed;
+        z-index: 10;
         padding: 5px 10px;
         font-size: .8em;
         border-radius: 0px 0px 3px 3px;
