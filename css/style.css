@@ -347,7 +347,7 @@ hr {
         padding: 20px;
     }
     #getting-there #vans p {
-        font-size: 1.5em;
+        font-size: 1.2em;
         line-height: 2;
         text-align: center;
     }
@@ -363,7 +363,7 @@ hr {
         padding: 20px 30px;
     }
     #registry #instructions p {
-        font-size: 1.5em;
+        font-size: 1.2em;
         line-height: 2;
         text-align: center;
     }
@@ -377,6 +377,23 @@ hr {
     }
     #registry #instructions a:hover, a:focus, a:active, a:visited  {
         background-color: #DFB4A1;
+    }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 30px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
     }
 }
 
@@ -639,6 +656,23 @@ hr {
     #registry #instructions a:hover, a:focus, a:active, a:visited  {
         background-color: #DFB4A1;
     }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 30px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -899,6 +933,23 @@ hr {
     }
     #registry #instructions a:hover, a:focus, a:active, a:visited  {
         background-color: #DFB4A1;
+    }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 30px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
     }
 }
 
@@ -1170,6 +1221,28 @@ hr {
         border-radius: 2px;
         line-height: 2;
         margin-bottom: 60px;
+    }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 0px;
+    }
+    #todo #places h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
     }
 }
 
@@ -1446,6 +1519,28 @@ hr {
     #registry #instructions a:hover, a:focus, a:active, a:visited  {
         background-color: #DFB4A1;
     }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 0px;
+    }
+    #todo #places h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
+    }
 }
 
 @media (min-width: 370px) and (max-width: 420px){
@@ -1680,7 +1775,7 @@ hr {
         font-family: 'Open Sans', sans-serif;
     }
     #getting-there #vans {
-        padding: 20px;
+        padding: 20px 0;
     }
     #getting-there #vans p {
         font-size: 1.1em;
@@ -1712,6 +1807,28 @@ hr {
     }
     #registry #instructions a:hover, a:focus, a:active, a:visited  {
         background-color: #DFB4A1;
+    }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 0px;
+    }
+    #todo #places h3 {
+        font-size: 1.65em;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
     }
 }
 
@@ -1983,5 +2100,27 @@ hr {
     }
     #registry #instructions a:hover, a:focus, a:active, a:visited  {
         background-color: #DFB4A1;
+    }
+
+    /*----- To do -----*/
+
+    #todo {
+        height: auto;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        text-align: left;
+    }
+    #todo #places {
+        padding: 20px 0px;
+    }
+    #todo #places h3 {
+        font-size: 1.45em;
+        line-height: 1.3;
+        margin-bottom: 5px;
+    }
+    #todo #places ul {
+        font-size: 1em;
+        line-height: 2;
+        text-align: left;
     }
 }
