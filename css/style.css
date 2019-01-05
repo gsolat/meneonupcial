@@ -350,6 +350,7 @@ hr {
         line-height: 2;
         text-align: center;
     }
+
     /*----- Registry -----*/
 
     #registry {
@@ -357,10 +358,24 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 30px;
+    }
     #registry #instructions p {
         font-size: 1.5em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #registry #instructions a:hover, a:focus, a:active, a:visited  {
+        background-color: #DFB4A1;
     }
 }
 
@@ -603,10 +618,24 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 30px;
+    }
     #registry #instructions p {
         font-size: 1.5em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #registry #instructions a:hover, a:focus, a:active, a:visited  {
+        background-color: #DFB4A1;
     }
 }
 
@@ -849,10 +878,24 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 30px;
+    }
     #registry #instructions p {
-        font-size: 1.5em;
+        font-size: 1.2em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #registry #instructions a:hover, a:focus, a:active, a:visited  {
+        background-color: #DFB4A1;
     }
 }
 
@@ -1108,10 +1151,21 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 30px;
+    }
     #registry #instructions p {
         font-size: 1.1em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
     }
 }
 
@@ -1367,10 +1421,24 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 30px;
+    }
     #registry #instructions p {
         font-size: 1.1em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #registry #instructions a:hover, a:focus, a:active, a:visited  {
+        background-color: #DFB4A1;
     }
 }
 
@@ -1618,10 +1686,24 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 30px;
+    }
     #registry #instructions p {
         font-size: 1.1em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #registry #instructions a:hover, a:focus, a:active, a:visited  {
+        background-color: #DFB4A1;
     }
 }
 
@@ -1873,9 +1955,23 @@ hr {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
     }
+    #registry #instructions {
+        padding: 20px 10px;
+    }
     #registry #instructions p {
-        font-size: 1.1em;
+        font-size: 1em;
         line-height: 2;
         text-align: center;
+    }
+    #registry #instructions a {
+        color: #363333;
+        background-color: #fff;
+        padding: 0px 3px;
+        border-radius: 2px;
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    #registry #instructions a:hover, a:focus, a:active, a:visited  {
+        background-color: #DFB4A1;
     }
 }
